@@ -271,20 +271,10 @@ footer div:nth-child(3) img {
 .blink {
     color: #5BCEFA;
     text-decoration: none;
-    text-shadow:
-        0.07em 0 #272727,
-        0 0.07em #272727,
-        -0.07em 0 #272727,
-        0 -0.07em #272727;
 }
 .plink {
     color: #F5A9B8;
     text-decoration: none;
-    text-shadow:
-        0.07em 0 #272727,
-        0 0.07em #272727,
-        -0.07em 0 #272727,
-        0 -0.07em #272727;
 }
 
 @media (max-width: 768px) {
@@ -342,6 +332,81 @@ footer div:nth-child(3) img {
     }
 
     .about-child {
+        padding-bottom: 3rem;
+    }
+}
+
+/* resources */
+.resource {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 0 auto 2rem;
+    max-width: 1200px;
+}
+
+.resource img {
+    border-radius: .5rem;
+}
+
+.resource-child {
+    width: 85%;
+    text-align: center;
+    color: #272727;
+    border-radius: .5rem;
+    background: #fff;
+}
+
+.resource-child div p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+}
+
+.resource-child div h2 {
+    font-size: 2rem;
+}
+
+.resource-child div .resource-child-plink {
+    background-color: #F5A9B8;
+    padding: .5rem 2rem;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-self: center;
+}
+
+.resource-child div .resource-child-blink {
+    background-color: #5BCEFA;
+    padding: .5rem 2rem;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-self: center;
+}
+
+.resource-child div a {
+    padding: .5rem 2rem;
+    background-color: #F5A9B8;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .resource {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
+
+    .resource-child {
         padding-bottom: 3rem;
     }
 }
