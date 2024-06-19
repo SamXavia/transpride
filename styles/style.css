@@ -28,6 +28,12 @@ header {
     height: 3rem;
 }
 
+header div img {
+    width: .5rem;
+    -webkit-filter: drop-shadow(.1rem .1rem .1rem #555);
+    filter: drop-shadow(.1rem .1rem .1rem #555);
+}
+
 .nav {
     background: linear-gradient(90deg, rgba(91,206,250,1) 0%, rgba(245,169,184,1) 100%);
     color: #fff;
@@ -238,11 +244,19 @@ footer div:nth-child(3) img {
 
 /* sizeable textbox */
 .sizeable-textbox {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: left;
     margin: 0 auto 2rem;
     max-width: 1200px;
+}
+
+.blink {
+    color: #5BCEFA;
+    text-decoration: none;
+}
+.plink {
+    color: #F5A9B8;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {
