@@ -182,8 +182,8 @@ header {
     margin: 1rem 0;
 }
 
-/* red spacer */
-.red-spacer {
+/* spacer */
+.spacer {
     width: 100%;
     height: 2.5rem;
     background: linear-gradient(90deg, rgba(91,206,250,1) 0%, rgba(245,169,184,1) 100%);
@@ -281,4 +281,17 @@ footer div:nth-child(3) img {
     .about-child {
         padding-bottom: 3rem;
     }
+}
+
+/* Footer Social Media Bar */
+footer .socials-bar {
+    font-size: 1.75rem;
+    padding: .5rem 2rem;
+    color: #fff;
+    word-spacing: .5rem;
+}
+
+footer .socials-bar a {
+    text-decoration: none;
+    color: #fff;
 }
