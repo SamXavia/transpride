@@ -246,23 +246,32 @@ footer div:nth-child(3) img {
 .sizeable-textbox {
     grid-template-columns: repeat(1, 1fr);
     justify-items: left;
-    margin: 0 auto 2rem;
+    margin: .5rem auto 2rem;
     max-width: 1200px;
 }
 
 .blink {
     color: #5BCEFA;
     text-decoration: none;
+    text-shadow:
+        0.07em 0 #272727,
+        0 0.07em #272727,
+        -0.07em 0 #272727,
+        0 -0.07em #272727;
 }
 .plink {
     color: #F5A9B8;
     text-decoration: none;
+    text-shadow:
+        0.07em 0 #272727,
+        0 0.07em #272727,
+        -0.07em 0 #272727,
+        0 -0.07em #272727;
 }
 
 @media (max-width: 768px) {
     .sizeable-textbox {
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 1rem;
+        margin: .5rem;
     }
 }
 
