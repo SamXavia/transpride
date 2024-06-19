@@ -252,7 +252,7 @@ footer div:nth-child(3) img {
 }
 
 .about-child div p {
-    text-align: left;
+    text-align: center;
     font-size: 1rem;
     padding: 0 1.5rem;
 }
@@ -279,6 +279,57 @@ footer div:nth-child(3) img {
     }
 
     .about-child {
+        padding-bottom: 3rem;
+    }
+}
+
+/* contact */
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 0 auto 2rem;
+    max-width: 1200px;
+}
+
+.contact img {
+    border-radius: .5rem;
+}
+
+.contact-child {
+    width: 85%;
+    text-align: center;
+    color: #fff;
+    border-radius: .5rem;
+    background: linear-gradient(90deg, rgba(91,206,250,1) 0%, rgba(245,169,184,1) 100%);
+}
+
+.contact-child div p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+}
+
+.contact-child div .socials-bar a {
+    padding: .5rem 2rem;
+    background-color: #F5A9B8;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+    margin: .5rem .5rem;
+}
+
+@media (max-width: 768px) {
+    .contact {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
+
+    .contact-child {
         padding-bottom: 3rem;
     }
 }
