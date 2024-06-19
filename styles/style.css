@@ -160,9 +160,15 @@ header {
     text-align: left;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1430px) {
     .hero-text {
         left: 30vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-text {
+        left: 40vw;
     }
 }
 
@@ -228,6 +234,22 @@ footer div:nth-child(3) img {
 /* Subtitle */
 .subtitle {
     text-align: center;
+}
+
+/* sizeable textbox */
+.sizeable-textbox {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: left;
+    margin: 0 auto 2rem;
+    max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+    .sizeable-textbox {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
 }
 
 /* about */
