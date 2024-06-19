@@ -336,6 +336,59 @@ footer div:nth-child(3) img {
     }
 }
 
+/* meet-the-team */
+.meet-the-team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 0 auto 2rem;
+    max-width: 1200px;
+}
+
+.meet-the-team img {
+    border-radius: 25rem;
+}
+
+.meet-the-team-child {
+    width: 85%;
+    text-align: center;
+    color: #fff;
+    border-radius: .5rem;
+    background: linear-gradient(90deg, rgba(91,206,250,1) 0%, rgba(245,169,184,1) 100%);
+}
+
+.meet-the-team-child div p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+}
+
+.meet-the-team-child div h2 {
+    font-size: 2rem;
+}
+
+.meet-the-team-child div a {
+    padding: .5rem 2rem;
+    background-color: #F5A9B8;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .meet-the-team {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
+
+    .meet-the-team-child {
+        padding-bottom: 3rem;
+    }
+}
+
 /* resources */
 .resource {
     display: grid;
