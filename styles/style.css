@@ -10,14 +10,14 @@ body {
 
 @media (max-width: 967px) {
     html {
-        font-size: 80%;
+        font-size: 90%;
         /* Adjust the base font size for smaller screens */
     }
 }
 
 @media (max-width: 768px) {
     html {
-        font-size: 60%;
+        font-size: 80%;
         /* Adjust the base font size for smaller screens */
     }
 }
@@ -173,7 +173,7 @@ header div img {
 
 @media (max-width: 1430px) {
     .hero-text {
-        left: 30vw;
+        left: 40vw;
     }
 }
 
