@@ -615,6 +615,55 @@ footer div:nth-child(3) img {
     }
 }
 
+/* transplay */
+.error404 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin: 0 auto 2rem;
+    max-width: 1200px;
+}
+
+.error404-child {
+    width: 85%;
+    text-align: center;
+    color: #fff;
+    border-radius: .5rem;
+    background: linear-gradient(90deg, rgba(91,206,250,1) 0%, rgba(245,169,184,1) 100%);
+}
+
+.error404-child div p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+}
+
+.error404-child div h2 {
+    font-size: 2rem;
+}
+
+.error404-child div a {
+    padding: .5rem 2rem;
+    background-color: #F5A9B8;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .error404 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
+
+    .error404-child {
+        padding-bottom: 3rem;
+    }
+}
+
 /* Footer Social Media Bar */
 footer .socials-bar {
     font-size: 1.75rem;
