@@ -184,6 +184,11 @@ header {
         border-radius: .5rem;
         justify-items: center;
     }
+    @media (max-width: 768px) {
+        .image-section img {
+            max-width: 66%;
+        }
+    }
 
     /* Double Section */
     .double-section {
