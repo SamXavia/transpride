@@ -328,6 +328,16 @@ header {
     text-decoration: none;
 }
 
+/* Boldness */
+    /* 600 Bold */
+    .bold-600 {
+        font-weight: 600;
+    }
+    /* Bold */
+    .bold {
+        font-weight: bold;
+    }
+
 /* Colours */
     /* Dark Gray */
     .d-gray {

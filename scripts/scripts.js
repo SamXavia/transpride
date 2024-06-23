@@ -22,3 +22,42 @@ function stripHtml(html)
    tmp.innerHTML = html;
    return tmp.textContent || tmp.innerText || "";
 }
+
+var sharkname = new Array();
+sharkname.push("Bridget");
+sharkname.push("Nixs");
+sharkname.push("Salve");
+sharkname.push("Sharkie");
+sharkname.push("Jeff the Landshork");
+sharkname.push("Lemon");
+sharkname.push("Shylo");
+sharkname.push("Markiplier");
+sharkname.push("Mrs Lovett");
+sharkname.push("Pip");
+sharkname.push("Vida");
+sharkname.push("Billie Eilish");
+sharkname.push("Melli");
+sharkname.push("Greg");
+sharkname.push("Fudge");
+sharkname.push("Blaj");
+sharkname.push("Cheese");
+sharkname.push("Yoshi");
+sharkname.push("Kirby");
+sharkname.push("Alex");
+sharkname.push("Nicole");
+sharkname.push("Shorky");
+sharkname.push("Armando");
+
+var point = 0;
+
+function changeText(){
+  $('span').html(sharkname[point]);
+  if(point < sharkname.length - 1){
+    point ++;
+  }else{
+    point = 0;
+  }
+  setTimeout(changeText, 2000)
+}
+
+changeText();
