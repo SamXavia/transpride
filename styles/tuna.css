@@ -219,6 +219,7 @@ header {
     }
         .double-section img, .triple-section img {
             border-radius: 1rem;
+            width: 95%;
         }
 
         /* Triple Section Child */
