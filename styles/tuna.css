@@ -185,7 +185,7 @@ header {
         justify-items: center;
     }
     @media (max-width: 768px) {
-        .image-section img {
+        .text-section .image-section img {
             max-width: 66%;
         }
     }
