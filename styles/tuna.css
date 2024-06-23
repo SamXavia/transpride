@@ -162,7 +162,7 @@ header {
         justify-items: left;
         font-size: 1.5rem;
     }
-        @media (max-width: 768px) {
+        @media (max-width: 1201x) {
             .text-section {
                 max-width: 90%;
             }
