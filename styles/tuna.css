@@ -162,6 +162,11 @@ header {
         justify-items: left;
         font-size: 1.5rem;
     }
+        @media (max-width: 768px) {
+            .text-section {
+                max-width: 90%;
+            }
+        }
         /* Pink & Blue - Text Section */
         .bp-text-section {
             display: grid;
