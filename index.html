@@ -10,6 +10,7 @@
             <link href="styles/tuna.css" rel="stylesheet">
             <!-- Personal Scripts -->
             <script src="scripts/scripts.js" defer></script>
+            <script src="scripts/newsletter.js" defer></script>
             <!-- Favicon / Webpage Icon -->
             <link rel="icon" type="image/png" href="/images/trans-pride-2024-logo.png">
             <!-- Webpage Title -->
@@ -116,13 +117,20 @@
              <div>
                 <h1 class="center">Join our Newsletter</h1>
                 <div class="text-section">
-                    <form class="center" action="https://formsubmit.co/sam@transpridesouthampton.org" method="POST">
+                    <!-- Version 2 - Coded it myself w/ HTML, CSS & JS -->
+                        <!--
+                        <form class="center form" onsubmit="emailSend(); reset(); return false;">
+                            <input type="email" id="newsletter-email" placeholder="user@email.com" name="email" required>
+                            <button type="submit" class="btn">submit</button>
+                        </form>
+                        -->
+                    <!-- Version 1 - This uses Formsubmit.co -->
+                    <form class="center form" action="https://formsubmit.co/sam@transpridesouthampton.org" method="POST">
                         <input type="hidden" name="_subject" value="New Newletter Subscriber!">
                         <input type="hidden" name="_next" value="https://transpridesouthampton.org/joined-newsletter">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="email" name="email" placeholder="Email Address" requred>
                         <button type="submit">Send</button>
-                        
                     </form>
                 </div>
              </div>
