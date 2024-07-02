@@ -378,6 +378,14 @@ header {
     outline: none;
 }
 
+.form textarea {
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    padding: 0.2rem;
+    outline: none;
+}
+
 .form button {
     font-size: 1rem;
     width: 15%;
