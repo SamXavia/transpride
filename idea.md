@@ -1,6 +1,3 @@
-## Website
-- [ ] Volunteer Page?
-
 ## In-Person Events
 - [ ] Trans Socials
 
